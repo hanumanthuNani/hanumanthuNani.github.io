@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nani Hanumanthu's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li>
+                <a href="#">More</a>
+                <div class="dropdown">
+                    <a href="#skills">Skills & Technologies</a>
+                    <a href="#summer-training">Summer Training</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="animate-title">About Me</h2>
+            <div class="content-wrapper">
+                <div class="profile-card animate-card">
+                    <div class="profile-img-wrapper">
+                        <img src="images/Profile.png" alt="Nani Hanumanthu" class="content-img1">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="content-text">
+                        <h3 class="animate-name">Nani Hanumanthu</h3>
+                        <p class="animate-text">A driven Computer Science student from Lovely Professional University, equipped with a solid foundation in full-stack development and data science. Known for building efficient, scalable, and thoughtful solutions that merge modern technologies with enduring software principles.</p>
+                        <div class="contact-info">
+                            <p class="animate-contact"><i class="fas fa-envelope"></i> <a href="mailto:Nanihanumanthu8@gmail.com">Nanihanumanthu8@gmail.com</a></p>
+                            <p class="animate-contact"><i class="fas fa-phone"></i> +91-8106808412</p>
+                        </div>
+                        <div class="social-links animate-social">
+                            <a href="https://www.linkedin.com/in/h-nani/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/hanumanthuNani" class="social-icon"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>Education</h3>
+                    <ul class="resume-list">
+                        <li>
+                            <strong>Bachelor of Technology - Computer Science and Engineering</strong><br>
+                            Lovely Professional University, Phagwara, Punjab<br>
+                            Aug 2022 - Present, CGPA: 7.80
+                        </li>
+                        <li>
+                            <strong>Intermediate</strong><br>
+                            Sri Chaitanya Junior College, Vizag, Andhra Pradesh<br>
+                            Apr 2020 - Apr 2022, Percentage: 93.4%
+                        </li>
+                        <li>
+                            <strong>Matriculation</strong><br>
+                            Sri Chaitanya Techno School, Rajam, Andhra Pradesh<br>
+                            Apr 2019 - Mar 2020, Percentage: 99%
+                        </li>
+                    </ul>
+                    <h3>Professional Skills</h3>
+                    <ul class="resume-list">
+                        <li>Cloud Computing and Deployment (AWS, GCP, Docker, CI/CD)</li>
+                        <li>Machine Learning and Data Analysis</li>
+                        <li>Competitive Programming and Problem-Solving</li>
+                        <li>Agile Methodologies and Team Collaboration</li>
+                        <li>UI/UX Design with Responsive Frameworks</li>
+                    </ul>
+                    <h3>Languages</h3>
+                    <ul class="resume-list">
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Telugu</li>
+                    </ul>
+                    <a href="images/resume.pdf" class="download-btn" download><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>Mall Customer Segmentation</h3>
+                    <ul>
+                        <li>Segmented mall customers based on purchasing behavior to enable targeted marketing strategies.</li>
+                        <li>Performed data preprocessing, including handling missing values and encoding categorical features.</li>
+                        <li>Applied <strong>K-Nearest Neighbors (KNN)</strong> and <strong>K-Means clustering</strong> to identify distinct customer groups.</li>
+                        <li>Achieved <strong>95% accuracy</strong> in categorizing customers into meaningful segments such as <em>High-Spenders</em> and <em>Frequent Shoppers</em>.</li>
+                    </ul>
+                    <strong>Tech Used:</strong> Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn<br>
+                    <strong>GitHub:</strong> <a href="https://github.com/hanumanthuNani/Python-Data-Science-Machine-Learning-Integrated---Hybrid-Project-" target="_blank">View on GitHub</a><br>
+                    <strong>Demo:</strong> <a href="https://github.com/hanumanthuNani/Python-Data-Science-Machine-Learning-Integrated---Hybrid-Project-/blob/main/Project_Mall_Customer_Segmentation.ipynb" target="_blank">Live Demo</a>
+                </div>
+                <img src="images/Project1.png" alt="Mall Customer Segmentation Screenshot" class="content-img">
+            </div>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>CGPA Calculator</h3>
+                    <ul>
+                        <li>Automated CGPA calculation by accepting student marks and credit values for each subject.</li>
+                        <li>Dynamically computes weighted averages and displays the final CGPA in real-time.</li>
+                        <li>Integrated data validation and error handling to ensure accurate and reliable calculations.</li>
+                        <li>Designed a user-friendly interface for easy data input and instant CGPA tracking.</li>
+                        <ul>
+                        <strong>Tech Used:</strong> HTML, CSS, JavaScript, Tailwind CSS</li>
+                        <strong>GitHub:</strong> <a href="https://github.com/hanumanthuNani/UPDATED_CGPA_CALCULATOR" target="_blank">View on GitHub</a><br>
+                        <strong>Demo:</strong> <a href="https://hanumanthunani.github.io/UPDATED_CGPA_CALCULATOR/" target="_blank">Live Demo</a>
+                        </p>
+                        <img src="images/Project2.png" alt="CGPA Calculator Screenshot" class="content-img">
+                    </div>
+            </div>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>Travel Tourism Website</h3>
+                    <ul>
+                        <li>Developed a dynamic travel website showcasing popular tourist destinations and travel packages.</li>
+                        <li>Implemented interactive features for searching destinations and customizing travel preferences.</li>
+                        <li>Integrated maps, itineraries, and booking functionality for a seamless user experience.</li>
+                        <li>Enhanced trip planning with customer reviews and personalized recommendations.</li>
+                    </ul>
+                    <strong>Tech Used:</strong> HTML, CSS, JavaScript, Tailwind CSS, React</li>
+                    <strong>GitHub:</strong> <a href="https://github.com/hanumanthuNani/CODE-NINJA_KOC27" target="_blank">View on GitHub</a><br />
+                    <strong>Demo:</strong> <a href="https://hanumanthunani.github.io/CODE-NINJA_KOC27/" target="_blank">Live Demo</a>
+                    </p>
+                </div>
+                <img src="images/Project3.png" alt="Travel Tourism Website Screenshot" class="content-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>CCertifications</h2>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>MH3 Microsoft Azure (AI-900)</h3>
+                    <p>Issued by:</strong> Coursera<br>
+                    <p>Date:</strong> April 2025</p>
+                </div>
+                    <img src="images/CCert1.png" alt="Microsoft Azure AI-900 Certificate" class="content-img">
+            </div>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>Data Structures and Algorithms</h3>
+                    <p><strong>Issued by:</strong> Abdul Bari (Udemy)</p>
+                </div>
+                <img src="images/Cert2.png" alt="Data Structures and Algorithms Certificate" class="content-img">
+            </div>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>Supervised Machine Learning</h3>
+                    <p><strong>Issued by:</strong> Coursera</p>
+                    <p><strong>Date:</strong> Jul 2024</p>
+                </div>
+                <img src="images/Cert3.png" alt="Supervised Machine Learning Certificate" class="content-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-category">
+                <h4>Programming Languages</h4>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/java/java-original.svg" alt="Java">
+                        <h4>Java</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        <h4>C++</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/python/python-original.svg" alt="Python">
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <h4>JavaScript</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h4>Frontend Development</h4>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/react/react-original.svg" alt="React">
+                        <h4>React</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
+                        <h4>Bootstrap</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h4>Backend Development</h4>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                        <h4>Node.js</h4>
+                    </div>
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/express/express-original.svg" alt="Express">
+                        <h4>Express</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="summer-training" class="section">
+        <div class="container">
+            <h2>Summer Training</h2>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h3>Data Science Using Python</h3>
+                    <p><strong>Cipher Schools</strong><br>
+                    Jun 2024 - Jul 2024</p>
+                    <ul class="training-list">
+                        <li>Learned data preprocessing, analysis, and visualization techniques using Python.</li>
+                        <li>Implemented machine learning algorithms, including KNN and Linear Regression, to solve real-world problems.</li>
+                        <li>Worked with Pandas, NumPy, and Matplotlib for data analysis.</li>
+                        <li>Enhanced models using data cleaning and feature engineering techniques.</li>
+                        <li>Adopted Agile methodologies to enhance iterative development and foster effective team collaboration.</li>
+                    </ul>
+                </div>
+                <img src="images/Pep.png" alt="Summer Training Image" class="content-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2>Achievements</h2>
+            <div class="content-wrapper">
+                <div class="achievement-card animate-card">
+                    <div class="content-text">
+                        <h3>LeetCode Badges</h3>
+                        <p>In 140 days of active practice on LeetCode, I solved 170+ problems and earned both the 50-day and 100-day badges. This accomplishment highlights my consistent commitment and perseverance in refining my problem-solving abilities. The badges reflect my growth and dedication to mastering algorithms, combining analytical thinking with steady, disciplined practice to excel in competitive programming.</p>
+                    </div>
+                    <div class="achievement-img-wrapper">
+                        <img src="images/badge1.png" alt="LeetCode Badge" class="achievement-img">
+                    </div>
+                </div>
+                <div class="achievement-card animate-card">
+                    <div class="content-text">
+                        <h3>Hacker Rank Badges</h3>
+                        <p>I have earned 5-star ratings in C++, Java, and C on HackerRank, alongside recognition in problem-solving. These milestones highlight my dedication to mastering a variety of programming languages and my ability to tackle diverse algorithmic challenges. This progression demonstrates my continuous efforts to refine my skills and elevate my competitive programming expertise.</p>
+                    </div>
+                    <div class="achievement-img-wrapper">
+                        <img src="images/badge2.png" alt="Coding Ninjas Badge" class="achievement-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <div class="contact-form">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Message" rows="5" required></textarea>
+                        <button onclick="submitForm()">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbase Chatbot Script -->
+    <script>
+        (function() {
+            if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+                window.chatbase = (...args) => {
+                    if (!window.chatbase.q) window.chatbase.q = [];
+                    window.chatbase.q.push(args);
+                };
+                window.chatbase = new Proxy(window.chatbase, {
+                    get(target, prop) {
+                        if (prop === "q") return target.q;
+                        return (...args) => target(prop, ...args);
+                    }
+                });
+            }
+            const onLoad = function() {
+                const script = document.createElement("script");
+                script.src = "https://www.chatbase.co/embed.min.js";
+                script.id = "DdVyrPKc8tILJi2kDzsPy";
+                script.setAttribute("chatbotId", "DdVyrPKc8tILJi2kDzsPy");
+                script.setAttribute("domain", "www.chatbase.co");
+                script.async = true;
+                script.onload = () => {
+                    if (window.chatbase) {
+                        window.chatbase("init");
+                    }
+                };
+                document.body.appendChild(script);
+            };
+            if (document.readyState === "complete") {
+                onLoad();
+            } else {
+                window.addEventListener("load", onLoad);
+            }
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
